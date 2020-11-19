@@ -9,8 +9,6 @@ html {
 }
 
 body {
-
-    
     box-sizing: border-box;
     font-family: IRANSans;
     margin: 0;
@@ -41,4 +39,13 @@ h2 {
 
 .clearfix::after {
     clear: both;
+}
+
+.flex {
+    display: flex;
+}
+
+select,
+input {
+    font-family: inherit;
 }

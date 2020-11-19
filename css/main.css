@@ -48,3 +48,35 @@
     width: 24px;
     vertical-align: middle;
 }
+
+
+/* header main  */
+
+.header-info {
+    padding: 20px;
+}
+
+.searchbox {
+    flex-grow: 1;
+    height: 40px;
+    justify-content: center;
+}
+
+.categorylist {
+    border: none;
+    padding: 8px 15px;
+    border-radius: 0 20px 20px 0;
+}
+
+.searchinput {
+    border: none;
+    padding: 8px 15px;
+    width: 20%;
+}
+
+.btsearch {
+    padding: 5px 15px;
+    background-color: #f4a137;
+    border-radius: 20px 0 0 20px;
+    color: #fff !important;
+}
